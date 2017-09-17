@@ -14,24 +14,19 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.ir@1.0-service.xiaomi_mido",
+    name: "android.hardware.usb@1.0-service.basic",
     relative_install_path: "hw",
-    defaults: ["hidl_defaults"],
-    init_rc: ["android.hardware.ir@1.0-service.xiaomi_mido.rc"],
-    srcs: ["service.cpp", "ConsumerIr.cpp"],
+    init_rc: ["android.hardware.usb@1.0-service.basic.rc"],
+    srcs: ["service.cpp", "Usb.cpp"],
     shared_libs: [
         "libbase",
-        "libhardware",
+        "libcutils",
         "libhidlbase",
         "libhidltransport",
         "libhwbinder",
         "libutils",
-        "android.hardware.ir@1.0",
+        "libhardware",
+        "android.hardware.usb@1.0",
     ],
     proprietary: true,
 }
-
-subdirs = [
-    "light",
-    "usb",
-]
