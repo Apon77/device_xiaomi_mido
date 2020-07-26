@@ -1,0 +1,57 @@
+[
+ {
+   "repository" : "rahifm/proprietary_vendor_xiaomi",
+   "target_path": "vendor/xiaomi",
+   "branch"     : "du-q10x"
+ },
+ {
+   "repository" : "DirtyUnicorns/android_vendor_codeaurora_telephony",
+   "target_path": "vendor/codeaurora/telephony",
+   "branch"     : "q10x"
+ },
+ {
+   "repository" : "lineageos/android_device_qcom_sepolicy",
+   "target_path": "device/qcom/sepolicy-legacy-um",
+   "branch"     : "lineage-17.1-legacy-um"
+ },
+ {
+   "repository" : "DirtyUnicorns/android_external_ant-wireless_antradio-library",
+   "target_path": "external/ant-wireless/antradio-library",
+   "branch"     : "q10x"
+ },
+ {
+   "repository" : "RahifM/android_kernel_xiaomi_msm8953",
+   "target_path": "kernel/xiaomi/msm8953",
+   "branch"     : "rebase/LA.UM.8.6.r1"
+ },
+ {
+   "repository" : "DirtyUnicorns/android_vendor_qcom_opensource_audio",
+   "target_path": "vendor/qcom/opensource/audio",
+   "branch"     : "q10x"
+ },
+ {
+   "repository" : "DirtyUnicorns/android_vendor_qcom_opensource_cryptfs_hw",
+   "target_path": "vendor/qcom/opensource/cryptfs_hw",
+   "branch"     : "q10x"
+ },
+ {
+   "repository" : "DirtyUnicorns/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
+   "target_path": "vendor/qcom/opensource/data-ipa-cfg-mgr",
+   "branch"     : "q10x"
+ },
+ {
+   "repository" : "DirtyUnicorns/android_vendor_qcom_opensource_dataservices",
+   "target_path": "vendor/qcom/opensource/dataservices",
+   "branch"     : "q10x"
+ },
+ {
+   "repository" : "DirtyUnicorns/android_vendor_qcom_opensource_interfaces",
+   "target_path": "vendor/qcom/opensource/interfaces",
+   "branch"     : "q10x"
+ },
+ {
+   "repository" : "DirtyUnicorns/android_vendor_qcom_opensource_power",
+   "target_path": "vendor/qcom/opensource/power",
+   "branch"     : "q10x"
+ }
+]
